@@ -1,0 +1,79 @@
+h1,h3 {
+    text-align: right;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+    vertical-align: middle;
+    border-radius: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    height: 60px;
+    line-height: 60px;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    line-height: 40px;
+    height: 40px;
+    color: rgb(63, 63, 63);
+    margin-top: 20px;
+}
+
+.btn {
+    width: 23%;
+    margin: 1%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #693e87;
+    height: 66px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 200ms linear;
+    color: white;
+    font-weight: bold;
+    font-family: 'Livvic', sans-serif;
+}
+
+.number {
+    background-color: #9654c4;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #414042;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+#container {
+    margin: 100px auto;
+    width: 300px;
+    overflow: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+body {
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#plus-minus, #decimal {
+    font-size: 1.2em;
+}

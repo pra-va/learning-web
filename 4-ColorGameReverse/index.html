@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kite+One&display=swap" rel="stylesheet">
+    <title>Twisted Color Game</title>
+    <link rel="stylesheet" href="twisted.css">
+</head>
+<body>
+    <nav id="topNav">
+        <h1 id="headerText">Twisted Game Of Colors</h1>
+    </nav>
+    <nav id="navBellow">
+        <div id="btnRight">
+            <button class="deselectBtn" id="rgbMode">rgb</button>
+            <button class="deselectBtn" id="hexMode">hex</button>
+        </div>
+        <div id="btnLeft">
+            <button class="deselectBtn" id="reset">restart</button>
+            <button class="deselectBtn" id="easy">easy</button>
+            <button class="deselectBtn" id="medium">medium</button>
+            <button class="deselectBtn" id="hard">hard</button>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div id="collorWindow">
+            <h1>Which color is this?</h1>
+        </div>
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td>rgb(255, 255, 0)</td>
+                    <td>rgb(0, 128, 0)</td>
+                </tr>
+                <tr>
+                    <td>rgb(0, 153, 230)</td>
+                    <td>rgb(128, 0, 21)</td>
+                </tr>
+                <tr>
+                    <td>rgb(153, 255, 204)</td>
+                    <td>rgb(0, 0, 179)</td>        
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+td {
+    height: 2em;
+    width: 7em;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.table {
+    border: 2px solid black;
+}
+
+.setWon {
+    background: yellowgreen;
+}
+
+.winner {
+    background: rgb(108, 27, 133);
+}

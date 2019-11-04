@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>Badminton Match Score Tracker</h3>
+    <table class="table" border="true">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>1st Set</td>
+                <td>2nd Set</td>
+                <td>3rd Set</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="p1NameSpot">Undefined</td>
+                <td class = "p1scores">0</td>
+                <td class = "p1scores">0</td>
+                <td class = "p1scores">0</td>
+ 
+            </tr>
+            <tr>
+                <td class="p2NameSpot">Undefined</td>
+                <td class = "p2scores">0</td>
+                <td class = "p2scores">0</td>
+                <td class = "p2scores">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="buttons">
+        <button id = "p1btn">Player 1 Scores</button>
+        <button id = "p2btn">Player 2 Scores</button>
+        <button id = "reset">Reset</button>
+    </div>
+    <label for="p1">Player 1 name:</label>
+    <input type="text" name="p1" id="p1Name">
+    <label for="p2">Player 2 name:</label>
+    <input type="text" name="p2" id="p2Name">
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

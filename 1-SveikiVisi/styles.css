@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    padding-top: 25%;
+    font-size: 6em; 
+    font-weight: 900;
+    font-style: italic;
+    color: green;
+    margin: 0;
+
+    
+}
+
+.flash {
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        #a200ff,
+        #9c25e0,
+        #9d46cf,
+        #a15bc9,
+        #a876c5,
+        #a986bd,
+        #a697af,
+        #9c9c9c
+    );
+}
+
+body {
+    background-size: 400%;
+    background-image: var(--gradient);
+    animation: bg-animation 5s infinite alternate;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+@keyframes flash {
+    from {color: blue;}
+    to {color: yellow;}
+}
